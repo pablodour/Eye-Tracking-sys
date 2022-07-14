@@ -12,7 +12,8 @@ To start it you need to call the fllowing code
 And you need to download the trained model from:  
 https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks_GTX.dat.bz2   
 
-And add the path to [code](https://github.com/pablodour/eye_tracker_py/blob/4bf96b395c6e18300528058ca62b3efa6423143d/eye_tracker_final.py#L19-L20)
+And add the path to [code](https://github.com/pablodour/eye_tracker_py/blob/4bf96b395c6e18300528058ca62b3efa6423143d/eye_tracker_final.py#L19-L20)  
+
 
 Remember to clear and free the camera after the program is terminated with the following lines of code  
 
