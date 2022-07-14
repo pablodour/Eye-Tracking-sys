@@ -15,11 +15,11 @@ https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_lan
 Remember to clear and free the camera after the program is terminated with the following lines of code  
 
 //  
-# closing the camera  
-camera.release()  
-# Recoder.release()  
-# closing  all the windows  
-cv.destroyAllWindows()  
+    #closing the camera  
+    camera.release()  
+    #Recoder.release()  
+    #closing  all the windows  
+    cv.destroyAllWindows()  
 //
 
 # functions:  
