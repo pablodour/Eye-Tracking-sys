@@ -3,18 +3,18 @@
 This module has the sole propouse of counting the pixels in each section of both eyes and then computing an average to calculate the wheels turning value for Eloflex Model F Power Wheelchair.
 To start it you need to call the fllowing code
 
-//
-    camera = cv.VideoCapture(camera number)
-    #initialize the camera
-    _, frame = camera.read()
-    speed = track_eyes(frame, delay, flag)
-//
-# functions:
-## track_eyes(frame, delay, flag)
-Main function to be called in the application, the inputs:
-      -frame: frame captured from the camera
-      -delay: delay in seconds to chose when to do a prediction
-      -flag: will decide which eye/eyes(0 right, 1 left, else both) to get the reading from
+//  
+    camera = cv.VideoCapture(camera number)  
+    #initialize the camera  
+    _, frame = camera.read()  
+    speed = track_eyes(frame, delay, flag)  
+//  
+# functions:  
+## track_eyes(frame, delay, flag)  
+Main function to be called in the application, the inputs:  
+      -frame: frame captured from the camera  
+      -delay: delay in seconds to chose when to do a prediction  
+      -flag: will decide which eye/eyes(0 right, 1 left, else both) to get the reading from  
 It will return the speed calculated
 
 ## landmarker(frame, face)
