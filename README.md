@@ -3,12 +3,12 @@
 This module has the sole propouse of counting the pixels in each section of both eyes and then computing an average to calculate the wheels turning value for Eloflex Model F Power Wheelchair.
 To start it you need to call the fllowing code
 
-//  
+```python  
     camera = cv.VideoCapture(camera number)  
     #initialize the camera  
     _, frame = camera.read()  
     speed = track_eyes(frame, delay, flag)  
-//  
+```
 And you need to download the trained model from:  
 https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks_GTX.dat.bz2   
 
@@ -17,13 +17,13 @@ And add the path to [code](https://github.com/pablodour/eye_tracker_py/blob/4bf9
 
 Remember to clear and free the camera after the program is terminated with the following lines of code  
 
-//  
+```python  
     #closing the camera  
     camera.release()  
     #Recoder.release()  
     #closing  all the windows  
     cv.destroyAllWindows()  
-//  
+```  
 
 
 # functions:  
