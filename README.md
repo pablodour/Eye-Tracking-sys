@@ -10,7 +10,17 @@ To start it you need to call the fllowing code
     speed = track_eyes(frame, delay, flag)  
 //  
 And you need to download the trained model from:  
-https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks_GTX.dat.bz2  
+https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks_GTX.dat.bz2   
+
+Remember to clear and free the camera after the program is terminated with the following lines of code  
+
+//  
+# closing the camera  
+camera.release()  
+# Recoder.release()  
+# closing  all the windows  
+cv.destroyAllWindows()  
+//
 
 # functions:  
 ## track_eyes(frame, delay, flag)  
