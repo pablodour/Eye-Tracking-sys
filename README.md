@@ -9,6 +9,9 @@ To start it you need to call the fllowing code
     _, frame = camera.read()  
     speed = track_eyes(frame, delay, flag)  
 //  
+And you need to download the trained model from:  
+https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks_GTX.dat.bz2  
+
 # functions:  
 ## track_eyes(frame, delay, flag)  
 Main function to be called in the application, the inputs:  
