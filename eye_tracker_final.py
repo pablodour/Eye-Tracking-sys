@@ -17,7 +17,7 @@ import dlib
 #prediction models
 facedetector = dlib.get_frontal_face_detector()
 landmarkdetector = dlib.shape_predictor(
-    "Predictor/shape_predictor_68_face_landmarks_GTX.dat")
+    "PATH/TO/PREDICTOR/FILE")
 #Álvarez Casado C. & Bordallo López M.  (2021) 
 #Real-time face alignment: evaluation methods, 
 #training strategies and implementation optimization 
