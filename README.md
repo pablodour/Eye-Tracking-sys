@@ -1,7 +1,7 @@
 # eye_tracker_py
 
-This module has the sole propouse of counting the pixels in each section of both eyes and then computing an average to calculate the wheels turning value for Eloflex Model F Power Wheelchair.
-To start it you need to call the fllowing code
+This module has the sole propouse of counting the pixels in each section of both eyes and then computing an average.
+To start it you need to call the following code
 
 ```python  
     camera = cv.VideoCapture(camera number)  
